@@ -9,10 +9,8 @@
 </head>
 <body>
 
-        <ul>
-            <?php foreach ($person as $feature => $featureValue) : ?>
-                <li><strong><?= $feature ?></strong> : <small><?=$featureValue?></small></li>
-            <?php endforeach; ?>
-        </ul>
+          <?= sum(1,2,3,5,100,546) ?>
+
+
 </body>
 </html>
