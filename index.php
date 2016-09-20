@@ -4,26 +4,30 @@ require 'functions.php';
 
 require 'Task.php';
 
-// POJO
-// POPO
-// PLAIN OLD OBJECT
-// CONTENEDOR / ESTRUCTURA DE DADES
+// PDO: Php Data Objects library/biblioteca
 
-$task = new Task("Aprendre PHP",false);
-var_dump($task);
-//$task->completed = true;
-$task->complete();
-$task->description("Un altre cosa");
-echo $task->completed();
-var_dump($task);
+try {
+    $pdo = new PDO('mysql:host=127.0.0.1;dbname=prova','root','');
+}
+catch (PDOException $e){
+    die("Ha hagut un error durant la connexió. Missatge: " . $e->getMessage());
+}
 
-//$task1 = new Task("Netejar habitació", true);
-//$task2 = new Task("Comprar pa", false);
-//$task3 = new Task("Sortir més", true);
+$query = $pdo->prepare('SELECT * FROM todos');
 
-//$task2 = new Task;
-//$task3 = new Task;
-//$task = new Task();
+$query->execute();
 
-//var_dump($task);
+//var_dump($query->fetchAll(PDO::FETCH_CLASS,Task::class));
+
+//var_dump($query->fetchAll(PDO::FETCH_CLASS,'Task'));
+$results = $query->fetchAll(PDO::FETCH_CLASS|PDO::FETCH_PROPS_LATE,Task::class);
+$task1 = $results[0];
+
+var_dump($task1->id);
+var_dump($results[0]->id);
+
+var_dump($task1->description);
+var_dump($task1->completed);
+
+
 //require 'index.template.php';
