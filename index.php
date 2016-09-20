@@ -4,9 +4,17 @@ require 'functions.php';
 
 require 'Task.php';
 
-$pdo = connect();
+require 'database/Connection.php';
 
-$tasks = allTasks($pdo);
+require 'database/QueryBuilder.php';
+
+$pdo = Connection::make();
+
+//$connection = new Connection();
+//$pdo = $connection->make();
+
+$query = new QueryBuilder();
+$tasks = $query->all($pdo,'todos');
 
 //$tasks = Task::all();
 //
