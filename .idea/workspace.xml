@@ -77,15 +77,15 @@
             <entry file="file://$PROJECT_DIR$/database/QueryBuilder.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="140">
-                  <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+                  <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
                   <folding>
-                    <marker date="1474401598139" expanded="true" signature="918:1315" ph="..." />
-                    <marker date="1474401598139" expanded="true" signature="1006:1224" ph="{...}" />
-                    <marker date="1474401598139" expanded="true" signature="1051:1064" ph="SELECT * FRO... " />
-                    <marker date="1474401598139" expanded="true" signature="1051:1065" ph="SELECT * FRO... $" />
-                    <marker date="1474401598139" expanded="true" signature="1051:1073" ph="SELECT * FRO... " />
-                    <marker date="1474401598139" expanded="true" signature="1051:1075" ph="SELECT * FRO... " />
-                    <marker date="1474401598139" expanded="true" signature="1051:1103" ph="SELECT * FRO... $" />
+                    <marker date="1474401685519" expanded="true" signature="298:695" ph="..." />
+                    <marker date="1474401685519" expanded="true" signature="386:604" ph="{...}" />
+                    <marker date="1474401685519" expanded="true" signature="431:444" ph="SELECT * FRO... " />
+                    <marker date="1474401685519" expanded="true" signature="431:445" ph="SELECT * FRO... $" />
+                    <marker date="1474401685519" expanded="true" signature="431:453" ph="SELECT * FRO... " />
+                    <marker date="1474401685519" expanded="true" signature="431:455" ph="SELECT * FRO... " />
+                    <marker date="1474401685519" expanded="true" signature="431:483" ph="SELECT * FRO... $" />
                   </folding>
                 </state>
               </provider>
@@ -98,14 +98,14 @@
           <file leaf-file-name="QueryBuilder.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/database/QueryBuilder.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="672">
-                  <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+                <state relative-caret-position="28">
+                  <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
                   <folding>
-                    <marker date="1474401598139" expanded="true" signature="1051:1064" ph="SELECT * FRO... " />
-                    <marker date="1474401598139" expanded="true" signature="1051:1065" ph="SELECT * FRO... $" />
-                    <marker date="1474401598139" expanded="true" signature="1051:1073" ph="SELECT * FRO... " />
-                    <marker date="1474401598139" expanded="true" signature="1051:1075" ph="SELECT * FRO... " />
-                    <marker date="1474401598139" expanded="true" signature="1051:1103" ph="SELECT * FRO... $" />
+                    <marker date="1474401685519" expanded="true" signature="431:444" ph="SELECT * FRO... " />
+                    <marker date="1474401685519" expanded="true" signature="431:445" ph="SELECT * FRO... $" />
+                    <marker date="1474401685519" expanded="true" signature="431:453" ph="SELECT * FRO... " />
+                    <marker date="1474401685519" expanded="true" signature="431:455" ph="SELECT * FRO... " />
+                    <marker date="1474401685519" expanded="true" signature="431:483" ph="SELECT * FRO... $" />
                   </folding>
                 </state>
               </provider>
@@ -283,12 +283,12 @@
       <updated>1473965370926</updated>
       <workItem from="1473965373086" duration="4039000" />
       <workItem from="1474033207139" duration="6587000" />
-      <workItem from="1474384582590" duration="13900000" />
+      <workItem from="1474384582590" duration="13931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24526000" />
+    <option name="totallyTimeSpent" value="24557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1600" height="1176" extended-state="6" />
@@ -428,14 +428,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database/QueryBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="28">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <marker date="1474401598139" expanded="true" signature="1051:1064" ph="SELECT * FRO... " />
-            <marker date="1474401598139" expanded="true" signature="1051:1065" ph="SELECT * FRO... $" />
-            <marker date="1474401598139" expanded="true" signature="1051:1073" ph="SELECT * FRO... " />
-            <marker date="1474401598139" expanded="true" signature="1051:1075" ph="SELECT * FRO... " />
-            <marker date="1474401598139" expanded="true" signature="1051:1103" ph="SELECT * FRO... $" />
+            <marker date="1474401685519" expanded="true" signature="431:444" ph="SELECT * FRO... " />
+            <marker date="1474401685519" expanded="true" signature="431:445" ph="SELECT * FRO... $" />
+            <marker date="1474401685519" expanded="true" signature="431:453" ph="SELECT * FRO... " />
+            <marker date="1474401685519" expanded="true" signature="431:455" ph="SELECT * FRO... " />
+            <marker date="1474401685519" expanded="true" signature="431:483" ph="SELECT * FRO... $" />
           </folding>
         </state>
       </provider>

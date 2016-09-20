@@ -1,41 +1,6 @@
 <?php
 
 
-//COL·LABORADORS
-
-
-class Contract {
-
-    public $arquitecte;
-    public $paletes;
-    public $lampista;
-
-    /**
-     * Contract constructor.
-     * @param $arquitecte
-     * @param $paletes
-     * @param $lampista
-     */
-    public function __construct($arquitecte, $paletes, $lampista)
-    {
-        $this->arquitecte = $arquitecte;
-        $this->paletes = $paletes;
-        $this->lampista = $lampista;
-    }
-
-
-    public function buildHome($arquitecte, $paletes, $lampista) {
-        $arquitecte->disenyar();
-        $paletes->construir();
-        $lampista->work();
-//        $this->yesista->work();
-    }
-
-}
-
-
-
-
 class QueryBuilder {
 
     public $pdo;
