@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152190d1-82fe-4272-a61b-f9134a303d54" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/Connection.php" afterPath="$PROJECT_DIR$/database/Connection.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/QueryBuilder.php" afterPath="$PROJECT_DIR$/database/QueryBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="php-learning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +30,7 @@
     <favorites_list name="php-learning" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.24406528">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.template.php" pinned="false" current-in-tab="false">
@@ -79,13 +77,15 @@
             <entry file="file://$PROJECT_DIR$/database/QueryBuilder.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="140">
-                  <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+                  <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
                   <folding>
-                    <marker date="1474401072557" expanded="true" signature="430:443" ph="SELECT * FRO... " />
-                    <marker date="1474401072557" expanded="true" signature="430:444" ph="SELECT * FRO... $" />
-                    <marker date="1474401072557" expanded="true" signature="430:452" ph="SELECT * FRO... " />
-                    <marker date="1474401072557" expanded="true" signature="430:454" ph="SELECT * FRO... " />
-                    <marker date="1474401072557" expanded="true" signature="430:482" ph="SELECT * FRO... $" />
+                    <marker date="1474401598139" expanded="true" signature="918:1315" ph="..." />
+                    <marker date="1474401598139" expanded="true" signature="1006:1224" ph="{...}" />
+                    <marker date="1474401598139" expanded="true" signature="1051:1064" ph="SELECT * FRO... " />
+                    <marker date="1474401598139" expanded="true" signature="1051:1065" ph="SELECT * FRO... $" />
+                    <marker date="1474401598139" expanded="true" signature="1051:1073" ph="SELECT * FRO... " />
+                    <marker date="1474401598139" expanded="true" signature="1051:1075" ph="SELECT * FRO... " />
+                    <marker date="1474401598139" expanded="true" signature="1051:1103" ph="SELECT * FRO... $" />
                   </folding>
                 </state>
               </provider>
@@ -98,14 +98,14 @@
           <file leaf-file-name="QueryBuilder.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/database/QueryBuilder.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="112">
-                  <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+                <state relative-caret-position="672">
+                  <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
                   <folding>
-                    <marker date="1474401072557" expanded="true" signature="430:443" ph="SELECT * FRO... " />
-                    <marker date="1474401072557" expanded="true" signature="430:444" ph="SELECT * FRO... $" />
-                    <marker date="1474401072557" expanded="true" signature="430:452" ph="SELECT * FRO... " />
-                    <marker date="1474401072557" expanded="true" signature="430:454" ph="SELECT * FRO... " />
-                    <marker date="1474401072557" expanded="true" signature="430:482" ph="SELECT * FRO... $" />
+                    <marker date="1474401598139" expanded="true" signature="1051:1064" ph="SELECT * FRO... " />
+                    <marker date="1474401598139" expanded="true" signature="1051:1065" ph="SELECT * FRO... $" />
+                    <marker date="1474401598139" expanded="true" signature="1051:1073" ph="SELECT * FRO... " />
+                    <marker date="1474401598139" expanded="true" signature="1051:1075" ph="SELECT * FRO... " />
+                    <marker date="1474401598139" expanded="true" signature="1051:1103" ph="SELECT * FRO... $" />
                   </folding>
                 </state>
               </provider>
@@ -128,8 +128,8 @@
         <option value="$PROJECT_DIR$/index.template.php" />
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/database/Connection.php" />
-        <option value="$PROJECT_DIR$/database/QueryBuilder.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/database/QueryBuilder.php" />
       </list>
     </option>
   </component>
@@ -141,9 +141,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="69" />
+    <option name="y" value="24" />
     <option name="width" value="1600" />
-    <option name="height" value="1193" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -283,15 +283,15 @@
       <updated>1473965370926</updated>
       <workItem from="1473965373086" duration="4039000" />
       <workItem from="1474033207139" duration="6587000" />
-      <workItem from="1474384582590" duration="13381000" />
+      <workItem from="1474384582590" duration="13900000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24007000" />
+    <option name="totallyTimeSpent" value="24526000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="69" width="1600" height="1193" extended-state="0" />
+    <frame x="0" y="24" width="1600" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13256113" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -418,25 +418,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/QueryBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <marker date="1474401072557" expanded="true" signature="430:443" ph="SELECT * FRO... " />
-            <marker date="1474401072557" expanded="true" signature="430:444" ph="SELECT * FRO... $" />
-            <marker date="1474401072557" expanded="true" signature="430:452" ph="SELECT * FRO... " />
-            <marker date="1474401072557" expanded="true" signature="430:454" ph="SELECT * FRO... " />
-            <marker date="1474401072557" expanded="true" signature="430:482" ph="SELECT * FRO... $" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/QueryBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <marker date="1474401598139" expanded="true" signature="1051:1064" ph="SELECT * FRO... " />
+            <marker date="1474401598139" expanded="true" signature="1051:1065" ph="SELECT * FRO... $" />
+            <marker date="1474401598139" expanded="true" signature="1051:1073" ph="SELECT * FRO... " />
+            <marker date="1474401598139" expanded="true" signature="1051:1075" ph="SELECT * FRO... " />
+            <marker date="1474401598139" expanded="true" signature="1051:1103" ph="SELECT * FRO... $" />
+          </folding>
         </state>
       </provider>
     </entry>
