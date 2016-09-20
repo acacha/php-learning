@@ -13,8 +13,9 @@ $pdo = Connection::make();
 //$connection = new Connection();
 //$pdo = $connection->make();
 
-$query = new QueryBuilder();
-$tasks = $query->all($pdo,'todos');
+$query = new QueryBuilder($pdo);
+$tasks = $query->all('todos');
+
 
 //$tasks = Task::all();
 //
