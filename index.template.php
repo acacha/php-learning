@@ -17,7 +17,6 @@
                   <?php else:?>
                       <?= $task->description ?>
                   <?php endif;?>
-
               </li>
           <?php endforeach;?>
       </ul>

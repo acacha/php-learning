@@ -4,19 +4,10 @@ require 'functions.php';
 
 require 'Task.php';
 
-// PDO: Php Data Objects library/biblioteca
+$pdo = connect();
 
-try {
-    $pdo = new PDO('mysql:host=127.0.0.1;dbname=prova','root','');
-}
-catch (PDOException $e){
-    die("Ha hagut un error durant la connexió. Missatge: " . $e->getMessage());
-}
+$tasks = allTasks($pdo);
 
-$query = $pdo->prepare('SELECT * FROM todos');
-
-$query->execute();
-
-$tasks = $query->fetchAll(PDO::FETCH_CLASS|PDO::FETCH_PROPS_LATE,Task::class);
-
+//$tasks = Task::all();
+//
 require 'index.template.php';
