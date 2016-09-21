@@ -8,10 +8,11 @@ require 'database/Connection.php';
 
 require 'database/QueryBuilder.php';
 
-$pdo = Connection::make();
+$config = require 'config/database.php';
 
-//$connection = new Connection();
-//$pdo = $connection->make();
+$message = require 'config/message.php';
+
+$pdo = Connection::make($config,$message);
 
 $query = new QueryBuilder($pdo);
 $tasks = $query->all('todos');

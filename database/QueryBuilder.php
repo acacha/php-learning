@@ -1,14 +1,19 @@
 <?php
 
 
+/**
+ * Class QueryBuilder
+ */
 class QueryBuilder {
 
+    /**
+     * @var PDO
+     */
     public $pdo;
 
     /**
-     *
-     * DEPENDENCY INJECTION
      * QueryBuilder constructor.
+     *
      * @param $pdo
      */
     public function __construct(PDO $pdo)
@@ -16,15 +21,15 @@ class QueryBuilder {
         $this->pdo = $pdo;
     }
 
-
-    // Collaborators / Dependencies
-
     // Dependency injection
 
+
     /**
-     * @param $pdo
      *
-     * Type hinting
+     * Fetch all resources on table.
+     *
+     * @param $table
+     * @return array
      */
     function all($table)
     {
@@ -36,10 +41,4 @@ class QueryBuilder {
             PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE,
             Task::class);
     }
-
-//    function quasiAll();
-//
-//    function deleteAll();
-//
-//    function deleteOne();
 }
