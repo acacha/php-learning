@@ -2,7 +2,7 @@
 
 require 'functions.php';
 
-require 'Task.php';
+require 'Models/Task.php';
 
 require 'database/Connection.php';
 

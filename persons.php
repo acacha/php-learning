@@ -1,6 +1,6 @@
 <?php
 
-require "bootstrap.php";
+require "core/bootstrap.php";
 
 $persons = $query->all('Persons');
 
