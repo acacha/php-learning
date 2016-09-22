@@ -17,7 +17,8 @@ $pdo = Connection::make($config,$message);
 $query = new QueryBuilder($pdo);
 $tasks = $query->all('todos');
 
-
-//$tasks = Task::all();
-//
 require 'index.template.php';
+
+
+//DRY: DON'T REPEAT YOURSELF
+//WET: WRITE EVERITHING TWICE
