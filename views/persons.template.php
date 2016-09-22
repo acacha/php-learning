@@ -9,14 +9,12 @@
 </head>
 <body>
 
+      <?php require 'menu.php' ?>
+
       <ul>
-          <?php foreach ($tasks as $task) : ?>
+          <?php foreach ($persons as $person) : ?>
               <li>
-                  <?php if ($task->completed) : ?>
-                      <strike><?= $task->description ?></strike>
-                  <?php else:?>
-                      <?= $task->description ?>
-                  <?php endif;?>
+                  <?= $person->LastName ?>
               </li>
           <?php endforeach;?>
       </ul>
