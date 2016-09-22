@@ -2,17 +2,7 @@
 
 require "core/bootstrap.php";
 
-//$tasks = $query->all('todos');
-
-$routes = [
-    ''           => 'controllers/tasks.php',
-    'persons'    => 'controllers/persons.php',
-//    'persons/'    => 'controllers/persons.php',
-//    '/persons/'    => 'controllers/persons.php',
-//    '/persons'    => 'controllers/persons.php',
-    'about'      => 'controllers/about.php',
-    'contact'    => 'controllers/contact.php',
-];
+require 'routes.php';
 
 $uri = trim($_SERVER['REQUEST_URI'],'/');
 
